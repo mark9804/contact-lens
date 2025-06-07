@@ -19,10 +19,10 @@ importers:
         version: 2.2.7
       pinia:
         specifier: ^3.0.0
-        version: 3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))
+        version: 3.0.3(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))
       pinia-plugin-persistedstate:
         specifier: ^4.2.0
-        version: 4.3.0(pinia@3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3)))
+        version: 4.3.0(pinia@3.0.3(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3)))
       radash:
         specifier: ^12.1.0
         version: 12.1.0
@@ -1098,8 +1098,8 @@ packages:
   '@vue/devtools-api@6.6.4':
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
-  '@vue/devtools-api@7.7.5':
-    resolution: {integrity: sha512-HYV3tJGARROq5nlVMJh5KKHk7GU8Au3IrrmNNqr978m0edxgpHgYPDoNUGrvEgIbObz09SQezFR3A1EVmB5WZg==}
+  '@vue/devtools-api@7.7.6':
+    resolution: {integrity: sha512-b2Xx0KvXZObePpXPYHvBRRJLDQn5nhKjXh7vUhMEtWxz1AYNFOVIsh5+HLP8xDGL7sy+Q7hXeUxPHB/KgbtsPw==}
 
   '@vue/devtools-core@7.7.6':
     resolution: {integrity: sha512-ghVX3zjKPtSHu94Xs03giRIeIWlb9M+gvDRVpIZ/cRIxKHdW6HE/sm1PT3rUYS3aV92CazirT93ne+7IOvGUWg==}
@@ -2089,8 +2089,8 @@ packages:
       pinia:
         optional: true
 
-  pinia@3.0.2:
-    resolution: {integrity: sha512-sH2JK3wNY809JOeiiURUR0wehJ9/gd9qFN2Y828jCbxEzKEmEt0pzCXwqiSTfuRsK9vQsOflSdnbdBOGrhtn+g==}
+  pinia@3.0.3:
+    resolution: {integrity: sha512-ttXO/InUULUXkMHpTdp9Fj4hLpD/2AoJdmAbAeW2yu1iy1k+pkFekQXw5VpC0/5p51IOR/jDaDRfRWRnMMsGOA==}
     peerDependencies:
       typescript: '>=4.4.4'
       vue: ^2.7.0 || ^3.5.11
@@ -3513,7 +3513,7 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/devtools-api@7.7.5':
+  '@vue/devtools-api@7.7.6':
     dependencies:
       '@vue/devtools-kit': 7.7.6
 
@@ -4501,20 +4501,20 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  pinia-plugin-persistedstate@4.3.0(pinia@3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))):
+  pinia-plugin-persistedstate@4.3.0(pinia@3.0.3(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))):
     dependencies:
       '@nuxt/kit': 3.17.3
       deep-pick-omit: 1.2.1
       defu: 6.1.4
       destr: 2.0.5
     optionalDependencies:
-      pinia: 3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))
+      pinia: 3.0.3(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))
     transitivePeerDependencies:
       - magicast
 
-  pinia@3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3)):
+  pinia@3.0.3(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3)):
     dependencies:
-      '@vue/devtools-api': 7.7.5
+      '@vue/devtools-api': 7.7.6
       vue: 3.5.14(typescript@5.8.3)
     optionalDependencies:
       typescript: 5.8.3
