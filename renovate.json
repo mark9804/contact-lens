@@ -18,8 +18,7 @@
       "groupSlug": "all-minor-patch-node",
       "minimumReleaseAge": "3 days",
       "automerge": true,
-      "matchPackageNames": ["*"],
-      "excludePackageNames": ["@tauri-apps/*", "tauri", "tauri-*"]
+      "matchPackageNames": ["*", "!@tauri-apps/*", "!tauri", "!tauri-*"]
     },
     {
       "matchManagers": ["cargo"],
