@@ -6,7 +6,15 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
+      "groupName": "all non-major dependencies (tauri-specific)",
+      "groupSlug": "all-minor-patch",
+      "minimumReleaseAge": "3 days",
+      "automerge": true,
+      "matchPackageNames": ["tauri", "tauri-*"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies (node)",
       "groupSlug": "all-minor-patch",
       "minimumReleaseAge": "3 days",
       "automerge": true,
