@@ -6,11 +6,28 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
+      "groupName": "all non-major dependencies (tauri)",
+      "groupSlug": "all-minor-patch-tauri",
       "minimumReleaseAge": "3 days",
       "automerge": true,
-      "matchPackageNames": ["*"]
+      "matchPackageNames": ["@tauri-apps/*", "tauri", "tauri-*"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies (node)",
+      "groupSlug": "all-minor-patch-node",
+      "minimumReleaseAge": "3 days",
+      "automerge": true,
+      "matchPackageNames": ["*"],
+      "excludePackageNames": ["@tauri-apps/*", "tauri", "tauri-*"]
+    },
+    {
+      "matchManagers": ["cargo"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies (rust)",
+      "groupSlug": "all-minor-patch-rust",
+      "minimumReleaseAge": "3 days",
+      "automerge": true
     }
   ]
 }
